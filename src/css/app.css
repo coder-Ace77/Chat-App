@@ -1,0 +1,36 @@
+* {
+    /* outline: solid green 3px; */
+    margin: 0;
+}
+
+.appclass {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #0a4d68;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 98.4%;
+    height: 10vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    height: 86vh;
+    background-color: #c3b1b1;
+    width: 25%;
+}
+
+.main {
+
+    height: 86vh;
+    background-color: #f2f2f2;
+    width: 75%;
+}
