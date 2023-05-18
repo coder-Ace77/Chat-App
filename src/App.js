@@ -1,14 +1,16 @@
 
 import React from 'react';
 import './css/app.css';
+import './Components/main';
+import Main from './Components/main';
 
 function App() {
   return (
     <div className='appclass'>
-      <div class="header"></div>
-      <div class="content">
-        <div class="sidebar"></div>
-        <div class="main"></div>
+      <div className="header"></div>
+      <div className="content">
+        <div className="sidebar"></div>
+        <Main className="main" />
       </div>
     </div>
   );
